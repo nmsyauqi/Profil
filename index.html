@@ -1,36 +1,134 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <title>SHA portofolio</title>
-        <link rel="stylesheet" href="portofolio.css">
-    </head>
-    <body>
-        <header>
-            <div class="header">
-                <nav>
-                    <ul>
-                     <li><a href="https://nmsyauqi.github.io/Home/">Home</a></li>
-                     <li><a href="https://nmsyauqi.github.io/Blog/">About</a></li>
-                     <li><a href="https://nmsyauqi.github.io/Profil/">Profile</a></li>
-                     </ul>
-                 </nav>
-                <img src="pp.jpg" style="width: 150px;">
-                <h1>Nekopine</h1>
-                <p><a href="https://en.wikipedia.org/wiki/Rice">Rice</a> Consumer | <a href="https://translate.google.com/translate?u=https://en.wikipedia.org/wiki/Student&hl=id&sl=en&tl=id&client=srp&prev=search">Student</a> | <a href="https://en.wikipedia.org/wiki/Web">Web</a> Destroyer</p>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portofolio - Syauqi</title>
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+    <style>
+      html {
+        scroll-behavior: smooth;
+      }
+    </style>
+</head>
+<body data-bs-spy="scroll" data-bs-target="#navbarUtama">
+
+    <nav id="navbarUtama" class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+        <div class="container">
+            <a class="navbar-brand" href="#hero">Portofolio Saya</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#tentang">Tentang Saya</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#projek">Projek</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#kontak">Kontak</a>
+                    </li>
+                </ul>
             </div>
-        </header>
-        <section id="bio">
-            <h2>About Me</h2>
-            <p class="ord">Lorem ipsum dolor sit amet.</p>
-        </section>
-        <section id="work">
-            <h2>My Work</h2>
-            <div class="project" id="prj1"><a href="https://nmsyauqi.github.io/Nime/"><h2>Project 1</h2></a></div>
-            <div class="project" id="prj2">Project 2</div>
-            <div class="project" id="prj3">Project 3</div>
-        </section>
-        <footer>
-            <p>Contact to <a href="http://syauqimuhammad430@gmail.com">syauqimuhammad430@gmail.com</a></p>
-        </footer>
-    </body>
+        </div>
+    </nav>
+
+    <section id="hero" class="text-center py-5" style="background-color: #f8f9fa;">
+        <div class="container">
+            <img src="https://via.placeholder.com/150" class="rounded-circle mb-3" alt="Foto Profil" width="150" height="150">
+            <h1 class="display-4">Muhammad Syauqi Nadzif</h1>
+            <p class="lead text-muted">Web Developer | Frontend Developer | Backend Developer</p>
+        </div>
+    </section>
+
+    <section id="tentang" class="py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 mx-auto text-center">
+                    <h2 class="mb-4">Tentang Saya</h2>
+                    <p class="lead">
+                        Halo! Saya adalah seorang Mahasiswa IT yang berbasis di Kabupaten Bogor. Saya memiliki ketertarikan untuk mendalami membuat aplikasi web yang bersih, efisien, dan mudah digunakan.
+                    </p>
+                    <p>
+                        Saat tidak sedang coding, saya senang bepergian, membaca, mendaki gunung dan bersepeda jarak sedang.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projek" class="py-5" style="background-color: #f8f9fa;">
+        <div class="container">
+            <h2 class="text-center mb-5">Projek Saya</h2>
+            <div class="row">
+
+                <div class="col-md-4 mb-4">
+                    <div class="card h-100">
+                        <img src="https://via.placeholder.com/400x250" class="card-img-top" alt="Gambar Projek 1">
+                        <div class="card-body">
+                            <h5 class="card-title">Nama Projek 1</h5>
+                            <p class="card-text">Deskripsi singkat tentang projek ini. Jelaskan apa tujuannya dan teknologi apa yang Anda gunakan.</p>
+                            <a href="#" class="btn btn-primary">Lihat Detail</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 mb-4">
+                    <div class="card h-100">
+                       <div class="card-body">
+                            <h5 class="card-title">Nama Projek 2</h5>
+                            <p class="card-text">Ini adalah projek lain yang menunjukkan keahlian Anda. Mungkin ini adalah sebuah website e-commerce atau aplikasi internal.</p>
+                            <a href="#" class="btn btn-primary">Lihat di GitHub</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 mb-4">
+                    <div class="card h-100">
+                        <img src="https://via.placeholder.com/400x250" class="card-img-top" alt="Gambar Projek 3">
+                        <div class="card-body">
+                            <h5 class="card-title">Nama Projek 3</h5>
+                            <p class="card-text">Projek ini bisa jadi apa saja. Pastikan deskripsinya jelas dan padat.</p>
+                            <a href="#" class="btn btn-primary">Demo Langsung</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <section id="kontak" class="py-5">
+        <div class="container text-center">
+            <h2 class="mb-4">Hubungi Saya</h2>
+            <p class="lead mb-4">Tertarik untuk bekerja sama? Kirimkan saya email!</p>
+            
+            <a href="mailto:email@contoh.com" class="btn btn-primary btn-lg mb-3">
+                <i class="bi bi-envelope-fill"></i> Kirim Email
+            </a>
+            
+            <div class="mt-4">
+                <p class="lead">Atau temukan saya di:</p>
+                <a href="#" class="btn btn-outline-dark btn-lg mx-2"><i class="bi bi-linkedin"></i></a>
+                <a href="#" class="btn btn-outline-dark btn-lg mx-2"><i class="bi bi-github"></i></a>
+                <a href="#" class="btn btn-outline-dark btn-lg mx-2"><i class="bi bi-instagram"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <footer class="py-4 bg-dark text-white text-center">
+        <div class="container">
+            <p class="mb-0">Copyright &copy; 2025 - Nama Anda</p>
+        </div>
+    </footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
 </html>
